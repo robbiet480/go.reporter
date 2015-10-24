@@ -325,7 +325,7 @@ type Weather struct {
 	RelativeHumidity          string   `json:"relativeHumidity,omitempty"`
 	VisibilityKilometers      *float64 `json:"visibilityKM,omitempty"`
 	TemperatureCelsius        *float64 `json:"tempC,omitempty"`
-	PrecipTodayInches         *float64 `json:"precipTodayIn,omitempty"`
+	PrecipitationTodayInches  *float64 `json:"precipTodayIn,omitempty"`
 	WindKilometersPerHour     *float64 `json:"windKPH,omitempty"`
 	WindDegrees               *int     `json:"windDegrees,omitempty"`
 	Latitude                  *float64 `json:"latitude,omitempty"`
@@ -337,10 +337,10 @@ type Weather struct {
 	Longitude                 *float64 `json:"longitude,omitempty"`
 	FeelsLikeCelsius          *float64 `json:"feelslikeC,omitempty"`
 	TemperatureFarenheit      *float64 `json:"tempF,omitempty"`
-	PrecipTodayMetric         *float64 `json:"precipTodayMetric,omitempty"`
+	PrecipitationTodayMetric  *float64 `json:"precipTodayMetric,omitempty"`
 	WindGustKilometersPerHour *float64 `json:"windGustKPH,omitempty"`
 	WindDirection             string   `json:"windDirection,omitempty"`
-	Dewpoint                  *float64 `json:"dewpointC,omitempty"`
+	DewPoint                  *float64 `json:"dewpointC,omitempty"`
 	UVIndex                   *float64 `json:"uv,omitempty"`
 	WeatherDescription        string   `json:"weather,omitempty"`
 	WindGustMilesPerHour      *float64 `json:"windGustMPH,omitempty"`
