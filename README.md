@@ -11,7 +11,7 @@ go.reporter is a Golang library for parsing [Reporter-App](http://www.reporter-a
 import "github.com/robbiet480/go.reporter"
 ```
 
-Check out the examples in [`example_test.go`](example_test.go).
+Check out the examples in [`example_test.go`](example_test.go). For full documentation, see the [Godocs](https://godoc.org/github.com/robbiet480/go.reporter).
 
 To use this library with Dropbox, you will need to make a [new Dropbox app](https://www.dropbox.com/developers-v1/apps/create).
 You must set the permissions to allow full Dropbox access.
@@ -32,3 +32,14 @@ This library provides compatibility with both versions of the Reporter JSON sche
 
 # Tests
 `go test`
+
+# Contributing
+
+1. [Fork it](https://github.com/robbiet480/go.reporter)
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am "Add some feature"`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
+
+# License
+[MIT](LICENSE)
