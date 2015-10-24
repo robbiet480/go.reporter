@@ -323,7 +323,7 @@ type Location struct {
 type Weather struct {
 	ID                        string   `json:"uniqueIdentifier,omitempty"`
 	RelativeHumidity          string   `json:"relativeHumidity,omitempty"`
-	VisibilityKM              *float64 `json:"visibilityKM,omitempty"`
+	VisibilityKilometers      *float64 `json:"visibilityKM,omitempty"`
 	TemperatureCelsius        *float64 `json:"tempC,omitempty"`
 	PrecipTodayInches         *float64 `json:"precipTodayIn,omitempty"`
 	WindKilometersPerHour     *float64 `json:"windKPH,omitempty"`
