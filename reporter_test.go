@@ -66,10 +66,12 @@ func TestDecodeFileVersionTwo(t *testing.T) {
 func TestAudioPositiveAverageDb(t *testing.T) {
 	day := loadTestFile(t, "./testData/2015-10-23-reporter-export.json")
 	latestSnapshot := day.GetLatestSnapshot()
-	if latestSnapshot.Audio.PositiveAverageDb(true) != 12.32 {
-		t.Errorf("Positive Db average does not match expected value! We were expecting 12.32 but got %d", latestSnapshot.Audio.PositiveAverageDb(true))
+	rounded := latestSnapshot.Audio.PositiveAverageDb(true)
+	if rounded != 12.32 {
+		t.Errorf("Positive Db average does not match expected value! We were expecting 12.32 but got %f", rounded)
 	}
-	if latestSnapshot.Audio.PositiveAverageDb(false) != 12.318460000000002 {
-		t.Errorf("Positive Db average does not match expected value! We were expecting 12.32 but got %d", latestSnapshot.Audio.PositiveAverageDb(true))
+	unrounded := latestSnapshot.Audio.PositiveAverageDb(false)
+	if unrounded != 12.318460000000002 {
+		t.Errorf("Positive Db average does not match expected value! We were expecting 12.32 but got %f", unrounded)
 	}
 }
