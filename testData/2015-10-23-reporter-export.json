@@ -1,0 +1,466 @@
+{
+  "snapshots" : [
+    {
+      "steps" : 278,
+      "responses" : [
+        {
+          "questionPrompt" : "What did you learn today?",
+          "uniqueIdentifier" : "C6334B1E-5638-40F9-981F-1FF59518EF05",
+          "textResponses" : [
+            {
+              "uniqueIdentifier" : "3A000541-DF5E-49B8-BA51-23E71047C39C",
+              "text" : "Golang"
+            }
+          ]
+        },
+        {
+          "questionPrompt" : "Did you have lunch?",
+          "uniqueIdentifier" : "BEA0CB64-108A-4B02-90E5-CD12EE59221C",
+          "answeredOptions" : [
+            "No"
+          ]
+        },
+        {
+          "questionPrompt" : "Did you have dinner?",
+          "uniqueIdentifier" : "5E19C994-D9E7-4EF7-865D-25BF4EB62998",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "questionPrompt" : "Did you have breakfast?",
+          "uniqueIdentifier" : "7C7EAA1C-CAC0-4175-85CC-4F784E4021EE",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        }
+      ],
+      "battery" : 0.38,
+      "sectionIdentifier" : "1-2015-10-23",
+      "audio" : {
+        "avg" : -47.93216,
+        "peak" : -40.14682,
+        "uniqueIdentifier" : "715D3ADF-01FD-44D1-9006-E0898FA0D19A"
+      },
+      "background" : 0,
+      "date" : "2015-10-23T00:10:30-0700",
+      "uniqueIdentifier" : "5E51B864-D2A5-479D-B676-B0C10E1BB354",
+      "location" : {
+        "speed" : -1,
+        "placemark" : {
+          "subAdministrativeArea" : "Alameda",
+          "subLocality" : "Waverly",
+          "thoroughfare" : "23rd St",
+          "administrativeArea" : "CA",
+          "uniqueIdentifier" : "C1D6092E-291E-44A2-8129-AFA60DBD31BF",
+          "subThoroughfare" : "320",
+          "postalCode" : "94612",
+          "region" : "<+37.81208600,-122.26468100> radius 70.86",
+          "country" : "United States",
+          "locality" : "Oakland",
+          "name" : "320 23rd St"
+        },
+        "timestamp" : "2015-10-23T00:10:31-0700",
+        "longitude" : -122.2645512409341,
+        "latitude" : 37.81186274221337,
+        "verticalAccuracy" : 11.64350976209829,
+        "uniqueIdentifier" : "E1EB0115-AF68-461C-B2A2-CA5F16404A1C",
+        "course" : 0,
+        "altitude" : 4.35982608795166,
+        "horizontalAccuracy" : 65
+      },
+      "weather" : {
+        "relativeHumidity" : "88%",
+        "visibilityKM" : 16.1,
+        "tempC" : 16.6,
+        "uniqueIdentifier" : "043B5AEF-FAD1-4580-AB8A-7E819030D78C",
+        "precipTodayIn" : 0,
+        "windKPH" : 4.8,
+        "windDegrees" : 33,
+        "latitude" : 37.808689,
+        "stationID" : "KCAOAKLA38",
+        "visibilityMi" : 10,
+        "pressureIn" : 29.97,
+        "pressureMb" : 1015,
+        "feelslikeF" : 61.8,
+        "longitude" : -122.26754,
+        "feelslikeC" : 16.6,
+        "tempF" : 61.8,
+        "precipTodayMetric" : 0,
+        "windGustKPH" : 6.4,
+        "windDirection" : "NNE",
+        "dewpointC" : 15,
+        "uv" : 0,
+        "weather" : "Clear",
+        "windGustMPH" : 4,
+        "windMPH" : 3
+      },
+      "connection" : 1,
+      "altitude" : {
+        "floorsDescended" : 0,
+        "pressure" : 101.0209579467773,
+        "gpsAltitudeFromLocation" : 7.744545,
+        "floorsAscended" : 0,
+        "uniqueIdentifier" : "1E6B5305-9349-429D-A699-4E8B741C9725",
+        "adjustedPressure" : 101.1132567091196,
+        "gpsRawAltitude" : 4.35982608795166
+      },
+      "reportImpetus" : 3,
+      "draft" : 0
+    },
+    {
+      "steps" : 0,
+      "battery" : 1,
+      "sectionIdentifier" : "1-2015-10-23",
+      "audio" : {
+        "avg" : -51.21036,
+        "peak" : -36.07525,
+        "uniqueIdentifier" : "EF6EFF42-4B1E-47B6-97D1-3007D0366A36"
+      },
+      "background" : 0,
+      "date" : "2015-10-23T09:51:47-0700",
+      "uniqueIdentifier" : "96B96288-4441-4B81-A4F0-64ADD5496BB1",
+      "location" : {
+        "speed" : -1,
+        "placemark" : {
+          "subAdministrativeArea" : "Alameda",
+          "subLocality" : "Waverly",
+          "thoroughfare" : "23rd St",
+          "administrativeArea" : "CA",
+          "uniqueIdentifier" : "827657C2-FEF9-4400-BE5F-8AEE97E26E29",
+          "subThoroughfare" : "320",
+          "postalCode" : "94612",
+          "region" : "<+37.81208600,-122.26468100> radius 70.86",
+          "country" : "United States",
+          "locality" : "Oakland",
+          "name" : "320 23rd St"
+        },
+        "timestamp" : "2015-10-23T09:51:47-0700",
+        "longitude" : -122.2645137103711,
+        "latitude" : 37.81188214266436,
+        "verticalAccuracy" : 10,
+        "uniqueIdentifier" : "234A2940-2E36-4C61-A147-488B9AF283CB",
+        "course" : 0,
+        "altitude" : 3.696475028991699,
+        "horizontalAccuracy" : 65
+      },
+      "weather" : {
+        "relativeHumidity" : "86%",
+        "visibilityKM" : 16.1,
+        "tempC" : 17.4,
+        "uniqueIdentifier" : "D02CB090-F1BA-4BD9-8680-D349BB21A807",
+        "precipTodayIn" : 0,
+        "windKPH" : 4.8,
+        "windDegrees" : 255,
+        "latitude" : 37.808689,
+        "stationID" : "KCAOAKLA38",
+        "visibilityMi" : 10,
+        "pressureIn" : 30.02,
+        "pressureMb" : 1016,
+        "feelslikeF" : 63.3,
+        "longitude" : -122.26754,
+        "feelslikeC" : 17.4,
+        "tempF" : 63.3,
+        "precipTodayMetric" : 0,
+        "windGustKPH" : 8,
+        "windDirection" : "WSW",
+        "dewpointC" : 15,
+        "uv" : 1,
+        "weather" : "Mostly Cloudy",
+        "windGustMPH" : 5,
+        "windMPH" : 3
+      },
+      "connection" : 1,
+      "altitude" : {
+        "floorsDescended" : 0,
+        "pressure" : 101.2525787353516,
+        "gpsAltitudeFromLocation" : 7.663523,
+        "floorsAscended" : 0,
+        "uniqueIdentifier" : "30DBBA41-9941-46E9-8D21-ADA3C2BCF2E1",
+        "adjustedPressure" : 101.3438687981405,
+        "gpsRawAltitude" : 3.696475028991699
+      },
+      "reportImpetus" : 2,
+      "draft" : 0
+    },
+    {
+      "steps" : 1093,
+      "responses" : [
+        {
+          "questionPrompt" : "Are you working?",
+          "uniqueIdentifier" : "475B5E99-92C0-45CF-8C09-386E4A2E71B4",
+          "answeredOptions" : [
+            "No"
+          ]
+        },
+        {
+          "locationResponse" : {
+            "text" : "Umami Burger",
+            "location" : {
+              "speed" : -1,
+              "timestamp" : "2015-10-23T12:29:05-0700",
+              "longitude" : -122.2666432247919,
+              "latitude" : 37.81069159534297,
+              "verticalAccuracy" : -1,
+              "uniqueIdentifier" : "609139D5-9059-47DA-B8BC-66C37770097C",
+              "course" : 0,
+              "altitude" : 0,
+              "horizontalAccuracy" : 0
+            },
+            "uniqueIdentifier" : "E33425AF-85C0-4366-A15C-E91778ECB525",
+            "foursquareVenueId" : "51671516e4b0f53b559e4e9d"
+          },
+          "questionPrompt" : "Where are you?",
+          "uniqueIdentifier" : "960D2E62-6F08-4C87-85C6-CE2C1ED8E24C"
+        },
+        {
+          "tokens" : [
+            {
+              "uniqueIdentifier" : "35171999-7716-48BA-AA88-4CEEE317C699",
+              "text" : "Lunch"
+            }
+          ],
+          "questionPrompt" : "What are you doing?",
+          "uniqueIdentifier" : "8C0B9759-9617-45C1-91B3-B96B418B75F1"
+        },
+        {
+          "questionPrompt" : "Who are you with?",
+          "uniqueIdentifier" : "6FF90E16-DE65-4213-A09F-E4FA787C640F"
+        }
+      ],
+      "battery" : 0.84,
+      "sectionIdentifier" : "1-2015-10-23",
+      "audio" : {
+        "avg" : -36.42973,
+        "peak" : -30.86277,
+        "uniqueIdentifier" : "F0DB2780-C103-48E1-BE7E-E2CFE6C01D7E"
+      },
+      "background" : 0,
+      "date" : "2015-10-23T12:28:56-0700",
+      "uniqueIdentifier" : "CA506007-5ED4-42CA-93CE-E6737F311302",
+      "location" : {
+        "speed" : -1,
+        "placemark" : {
+          "subAdministrativeArea" : "Alameda",
+          "subLocality" : "Lake Merritt District",
+          "thoroughfare" : "Broadway",
+          "administrativeArea" : "CA",
+          "uniqueIdentifier" : "532EF33A-D212-4266-AE33-3A1DC6B2E2FC",
+          "subThoroughfare" : "2228",
+          "postalCode" : "94612",
+          "region" : "<+37.81110915,-122.26644400> radius 35.58",
+          "country" : "United States",
+          "locality" : "Oakland",
+          "name" : "2228 Broadway"
+        },
+        "timestamp" : "2015-10-23T12:28:58-0700",
+        "longitude" : -122.2664566775887,
+        "latitude" : 37.81108575020485,
+        "verticalAccuracy" : 10,
+        "uniqueIdentifier" : "BE428D03-3765-4EA1-8621-881DD7D818B0",
+        "course" : 0,
+        "altitude" : 5.236086845397949,
+        "horizontalAccuracy" : 65
+      },
+      "weather" : {
+        "relativeHumidity" : "78%",
+        "visibilityKM" : 16.1,
+        "tempC" : 19.2,
+        "uniqueIdentifier" : "DC5DF3F7-E52F-421F-A9D4-420FF568CE07",
+        "precipTodayIn" : 0,
+        "windKPH" : 3.2,
+        "windDegrees" : 42,
+        "latitude" : 37.808689,
+        "stationID" : "KCAOAKLA38",
+        "visibilityMi" : 10,
+        "pressureIn" : 30.04,
+        "pressureMb" : 1017,
+        "feelslikeF" : 66.5,
+        "longitude" : -122.26754,
+        "feelslikeC" : 19.2,
+        "tempF" : 66.5,
+        "precipTodayMetric" : 0,
+        "windGustKPH" : 11.3,
+        "windDirection" : "NE",
+        "dewpointC" : 15,
+        "uv" : 3,
+        "weather" : "Mostly Cloudy",
+        "windGustMPH" : 7,
+        "windMPH" : 2
+      },
+      "connection" : 0,
+      "altitude" : {
+        "floorsDescended" : 0,
+        "pressure" : 101.6648406982422,
+        "gpsAltitudeFromLocation" : 7.164197,
+        "floorsAscended" : 0,
+        "uniqueIdentifier" : "B13D6ADB-2E38-408E-9E37-64D62B45FB3F",
+        "adjustedPressure" : 101.750000331069,
+        "gpsRawAltitude" : 5.236086845397949
+      },
+      "reportImpetus" : 2,
+      "draft" : 0
+    },
+    {
+      "steps" : 648,
+      "responses" : [
+        {
+          "locationResponse" : {
+            "text" : "The Grand",
+            "location" : {
+              "speed" : -1,
+              "timestamp" : "2015-10-21T17:10:24-0700",
+              "longitude" : -122.2652075439692,
+              "latitude" : 37.81142167747021,
+              "verticalAccuracy" : -1,
+              "uniqueIdentifier" : "BA66293D-FD55-438C-8416-32E99EF7B140",
+              "course" : 0,
+              "altitude" : 0,
+              "horizontalAccuracy" : 0
+            },
+            "uniqueIdentifier" : "E579409A-9D6D-4FE6-833A-8A25C8457660",
+            "foursquareVenueId" : "4c4a689542b4d13a23ba297d"
+          },
+          "questionPrompt" : "Where are you?",
+          "uniqueIdentifier" : "83520BD4-2CF6-4A51-8F08-9E3404E13DC7"
+        },
+        {
+          "questionPrompt" : "Are you working?",
+          "uniqueIdentifier" : "A0C3E495-66A6-4C80-8DC5-70540749A672",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "questionPrompt" : "Who are you with?",
+          "uniqueIdentifier" : "5CBFCB96-E071-4B5B-A440-6CE476F63359"
+        },
+        {
+          "tokens" : [
+            {
+              "uniqueIdentifier" : "4A9C25DE-C57E-4985-8D71-49C1494E9C50",
+              "text" : "Working"
+            }
+          ],
+          "questionPrompt" : "What are you doing?",
+          "uniqueIdentifier" : "356B877D-5D53-4F5E-8C0D-1C5367217786"
+        }
+      ],
+      "battery" : 0.75,
+      "sectionIdentifier" : "1-2015-10-23",
+      "audio" : {
+        "avg" : -58.84077,
+        "peak" : -49.7744,
+        "uniqueIdentifier" : "AEFF38A9-5BC3-4CF2-8DDA-7EA281E06779"
+      },
+      "background" : 0,
+      "date" : "2015-10-23T15:05:00-0700",
+      "uniqueIdentifier" : "64EB4499-CB48-45DE-ADDA-2CD134629EA7",
+      "location" : {
+        "speed" : -1,
+        "placemark" : {
+          "subAdministrativeArea" : "Alameda",
+          "subLocality" : "Waverly",
+          "thoroughfare" : "23rd St",
+          "administrativeArea" : "CA",
+          "uniqueIdentifier" : "AC763745-DFD4-4EE9-AA72-8D2CF8AA2D8B",
+          "subThoroughfare" : "320",
+          "postalCode" : "94612",
+          "region" : "<+37.81208600,-122.26468100> radius 70.86",
+          "country" : "United States",
+          "locality" : "Oakland",
+          "name" : "320 23rd St"
+        },
+        "timestamp" : "2015-10-23T15:05:02-0700",
+        "longitude" : -122.2646199469649,
+        "latitude" : 37.81200673891868,
+        "verticalAccuracy" : 10,
+        "uniqueIdentifier" : "57CE92E5-E191-4831-9305-8CDCF4CC31AD",
+        "course" : 0,
+        "altitude" : 4.925171852111816,
+        "horizontalAccuracy" : 65
+      },
+      "weather" : {
+        "relativeHumidity" : "59%",
+        "visibilityKM" : 16.1,
+        "tempC" : 23.2,
+        "uniqueIdentifier" : "EFB71F6D-AF4E-426B-918D-082AAE5BEB1B",
+        "precipTodayIn" : 0,
+        "windKPH" : 1.6,
+        "windDegrees" : 244,
+        "latitude" : 37.808689,
+        "stationID" : "KCAOAKLA38",
+        "visibilityMi" : 10,
+        "pressureIn" : 29.99,
+        "pressureMb" : 1016,
+        "feelslikeF" : 73.7,
+        "longitude" : -122.26754,
+        "feelslikeC" : 23.2,
+        "tempF" : 73.7,
+        "precipTodayMetric" : 0,
+        "windGustKPH" : 8,
+        "windDirection" : "WSW",
+        "dewpointC" : 15,
+        "uv" : 2,
+        "weather" : "Mostly Cloudy",
+        "windGustMPH" : 5,
+        "windMPH" : 1
+      },
+      "connection" : 1,
+      "altitude" : {
+        "floorsDescended" : 0,
+        "pressure" : 101.1060791015625,
+        "gpsAltitudeFromLocation" : 7.991344,
+        "floorsAscended" : 0,
+        "uniqueIdentifier" : "7CF35BD0-4F85-4968-A8AC-F787C6ED14F2",
+        "adjustedPressure" : 101.1992768717014,
+        "gpsRawAltitude" : 4.925171852111816
+      },
+      "reportImpetus" : 2,
+      "draft" : 0
+    }
+  ],
+  "questions" : [
+    {
+      "questionType" : 6,
+      "prompt" : "What did you learn today?",
+      "uniqueIdentifier" : "default-question-7"
+    },
+    {
+      "questionType" : 0,
+      "prompt" : "What are you doing?",
+      "uniqueIdentifier" : "default-question-3"
+    },
+    {
+      "questionType" : 2,
+      "prompt" : "Are you working?",
+      "uniqueIdentifier" : "default-question-2"
+    },
+    {
+      "questionType" : 3,
+      "prompt" : "Where are you?",
+      "uniqueIdentifier" : "default-question-4"
+    },
+    {
+      "questionType" : 4,
+      "prompt" : "Who are you with?",
+      "uniqueIdentifier" : "default-question-5",
+      "placeholderString" : "No one"
+    },
+    {
+      "questionType" : 2,
+      "prompt" : "Did you have breakfast?",
+      "uniqueIdentifier" : "6B49F3A8-C6AC-46B2-BB3F-24418FD8662B"
+    },
+    {
+      "questionType" : 2,
+      "prompt" : "Did you have lunch?",
+      "uniqueIdentifier" : "66B1C416-053C-44C2-BF8D-02BCB197C733"
+    },
+    {
+      "questionType" : 2,
+      "prompt" : "Did you have dinner?",
+      "uniqueIdentifier" : "C95F9087-E552-42E7-A5A5-9FAD75BBDE1D"
+    }
+  ]
+}
