@@ -5,8 +5,6 @@ import (
 	"io/ioutil"
 	"reflect"
 	"testing"
-
-	"github.com/robbiet480/go.reporter"
 )
 
 func thingToMap(t *testing.T, thing []byte) map[string]interface{} {
@@ -41,8 +39,8 @@ func compareOutput(t *testing.T, filepath string) {
 	}
 }
 
-func loadTestFile(t *testing.T, filePath string) (day reporter.Day) {
-	backend, err := reporter.NewFilesystemBackend("")
+func loadTestFile(t *testing.T, filePath string) (day Day) {
+	backend, err := NewFilesystemBackend("")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -50,7 +48,7 @@ func loadTestFile(t *testing.T, filePath string) (day reporter.Day) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	day, err = reporter.DecodeFile(fileFromBackend)
+	day, err = DecodeFile(fileFromBackend)
 	if err != nil {
 		t.Fatal(err)
 	}
