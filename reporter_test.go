@@ -75,3 +75,16 @@ func TestAudioPositiveAverageDb(t *testing.T) {
 		t.Errorf("Positive Db average does not match expected value! We were expecting 12.32 but got %f", unrounded)
 	}
 }
+
+func TestAudioPositivePeakDb(t *testing.T) {
+	day := loadTestFile(t, "./testData/2015-10-23-reporter-export.json")
+	latestSnapshot := day.GetLatestSnapshot()
+	rounded := latestSnapshot.Audio.PositivePeakDb(true)
+	if rounded != 30.45 {
+		t.Errorf("Positive Db peak does not match expected value! We were expecting 30.45 but got %f", rounded)
+	}
+	unrounded := latestSnapshot.Audio.PositivePeakDb(false)
+	if unrounded != 30.4512 {
+		t.Errorf("Positive Db peak does not match expected value! We were expecting 30.45 but got %f", unrounded)
+	}
+}
