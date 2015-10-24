@@ -231,9 +231,8 @@ func (a *Audio) PositiveAverageDb(rounded bool) float64 {
 	value := (float64(*a.Average) + float64(65)) * 2
 	if rounded {
 		return roundPlus(value, 2)
-	} else {
-		return value
 	}
+	return value
 }
 
 // PositivePeakDb does the same calculation the app does to show a positive Db peak value instead of the standard negative Db.
@@ -241,9 +240,8 @@ func (a *Audio) PositivePeakDb(rounded bool) float64 {
 	value := (float64(*a.Peak) + float64(65)) * 2
 	if rounded {
 		return roundPlus(value, 2)
-	} else {
-		return value
 	}
+	return value
 }
 
 // A Region is a struct containing a parsed CLPlacemark Region
