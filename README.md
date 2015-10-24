@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/robbiet480/go.reporter.svg)](https://travis-ci.org/robbiet480/go.reporter)
+[![GoDoc](https://godoc.org/github.com/robbiet480/go.reporter?status.svg)](https://godoc.org/github.com/robbiet480/go.reporter)
+
 # go.reporter
 go.reporter is a Golang library for parsing [Reporter-App](http://www.reporter-app.com/) JSON files.
 
